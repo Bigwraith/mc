@@ -1,0 +1,196 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>我的桌面</title>
+</head>
+<body>
+<div class="page-container">
+	<p class="f-20 text-success">欢迎使用M宠后台管理系统！</p>
+	<!-- <p>登录次数：18 </p> -->
+	<!-- <p>上次登录IP：222.35.131.79.1  上次登录时间：2014-6-14 11:19:55</p> -->
+	<p id="ip"></p>
+	<p id="time"></p>
+	<table class="table table-border table-bordered table-bg">
+		<thead>
+			<tr>
+				<th colspan="7" scope="col">信息统计</th>
+			</tr>
+			<tr class="text-c">
+				<th>统计</th>
+				<th>资讯库</th>
+				<th>图片库</th>
+				<th>产品库</th>
+				<th>用户</th>
+				<th>管理员</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="text-c">
+				<td>总数</td>
+				<td>92</td>
+				<td>9</td>
+				<td>0</td>
+				<td>8</td>
+				<td>20</td>
+			</tr>
+			<tr class="text-c">
+				<td>今日</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr class="text-c">
+				<td>昨日</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr class="text-c">
+				<td>本周</td>
+				<td>2</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr class="text-c">
+				<td>本月</td>
+				<td>2</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+		</tbody>
+	</table>
+	<table class="table table-border table-bordered table-bg mt-20">
+		<thead>
+			<tr>
+				<th colspan="2" scope="col">服务器信息</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th width="30%">服务器计算机名</th>
+				<td><span id="lbServerName">http://127.0.0.1/</span></td>
+			</tr>
+			<tr>
+				<td>服务器IP地址</td>
+				<td id="ips"></td>
+			</tr>
+			<tr>
+				<td>服务器域名</td>
+				<td>localhost:1717</td>
+			</tr>
+			<tr>
+				<td>服务器端口 </td>
+				<td>1717</td>
+			</tr>
+
+			<tr>
+				<td>本文件所在文件夹 </td>
+				<td>D:\wu\projects\GraduationProjects\mc_admin\src\</td>
+			</tr>
+			<tr>
+				<td>服务器操作系统 </td>
+				<td>NODEJS</td>
+			</tr>
+			<tr>
+				<td>系统所在文件夹 </td>
+				<td>D:\wu\projects\GraduationProjects\mc_admin\</td>
+			</tr>
+			<tr>
+				<td>服务器脚本超时时间 </td>
+				<td>30000秒</td>
+			</tr>
+			<tr>
+				<td>服务器的语言种类 </td>
+				<td>Chinese (People's Republic of China)</td>
+			</tr>
+			<tr>
+				<td>服务器当前时间 </td>
+				<td id="timers"></td>
+			</tr>
+			<tr>
+				<td>当前系统用户名 </td>
+				<td>admin</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<footer class="footer mt-20">
+	<div class="container">
+		<p>最终解释权由wyq所有</p>
+	</div>
+</footer>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script> 
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script>
+
+    let ip=returnCitySN.cip;
+	console.log(ip);
+	document.getElementById('ip').innerHTML="登录IP："+ip;
+	document.getElementById('ips').innerHTML=ip;
+	window.onload=function(){
+        //每1秒刷新时间
+        setInterval("NowTime()",1000);
+        }
+        function NowTime(){
+            //获取年月日
+            let time=new Date();
+            let year=time.getFullYear();
+            let month=time.getMonth()+1;
+            let day=time.getDate();
+                
+            //获取时分秒
+            let h=time.getHours();
+            let m=time.getMinutes();
+            let s=time.getSeconds();
+            
+            //检查是否小于10
+            h=check(h);
+            m=check(m);
+            s=check(s);
+            document.getElementById("time").innerHTML="登录时间："+year+"年"+month+"月"+day+"日  "+h+":"+m+":"+s;
+			document.getElementById("timers").innerHTML=year+"-"+month+"-"+day+" "+h+":"+m+":"+s;
+			// console.log("当前时间："+year+"年"+month+"月"+day+"日  "+h+":"+m+":"+s)
+			}
+            //时间数字小于10，则在之前加个“0”补位。
+            function check(i){
+                //方法一，用三元运算符
+                let num;
+                i<10?num="0"+i:num=i;
+                return num;
+                
+                //方法二，if语句判断
+                //if(i<10){
+                //    i="0"+i;
+                //}
+                //return i;
+            }
+</script>
+</body>
+</html>

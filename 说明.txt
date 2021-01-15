@@ -1,0 +1,6 @@
+1.安装nodejs、mongodb、mongodb的可视化工具studio 3T
+2.使用studio 3t导入data文件夹里面的数据
+3.分别进入mc_admin文件和mc文件，并且分别打开mc和mc_admin的控制台，都输入npm install导入所有的包
+4.导入包之后，现在mc_admin的控制台上接着再输入node server
+5.mc_admin打开后在mc的控制台上输入npm start
+注意：控制台打开都不要关闭

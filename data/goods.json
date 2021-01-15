@@ -1,0 +1,338 @@
+[
+    {
+        "number": 1,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2016-10/10/8/0f4f7a77f0b174f6dabd8c89d7a1bc72.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-07/27/16/b831c1ac5685163c43ba85ba3cdcf8cf.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-07/27/16/84a1091910a92bcabad1e9b4065808cb.png"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-07/27/16/e40af156a328992a00148c2c0727a418.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-07/27/16/49239bfe124a6890892da57c2e496b36.jpg"
+            }
+        ],
+        "index": 1,
+        "gid": 1,
+        "subject": "路斯 粗粮系列 洁齿除臭饼干 450g ",
+        "presubject": "添加海藻精华 香脆美味 减少口臭 训犬好零食",
+        "formats":[
+            {
+                "name": "450g",
+                "photo": "https://img1.epetbar.com/2016-10/10/8/0f4f7a77f0b174f6dabd8c89d7a1bc72.jpg"
+            }
+        ],
+        "sale_price":  19.8,
+        "market_price": 25.0
+    },
+    {
+        "number": 2,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2016-08/30/10/e358e1ee3c3e88440e539194fb80010a.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-08/30/10/94115133e30d43bbbd63fab68a6e696d.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-08/30/10/11651ad3c6dc4cc011e1c4ece04f7082.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-08/30/10/5eafd3d0b71fc1bc33641e694bdbc2c1.jpg"
+            }
+        ],
+        "index": 2,
+        "gid": 2,
+        "subject": "哈格Hugdarling 米奇除臭小饼多味装100g",
+        "presubject": "洁齿除臭 多味享受 可爱米奇造型 新老包装随机发",
+        "formats": [
+            {
+                "name": "100g",
+                "photo": "https://img1.epetbar.com/2016-08/30/10/e358e1ee3c3e88440e539194fb80010a.jpg"
+            }
+        ],
+        "sale_price":  5.8,
+        "market_price": 8.0
+    },
+    {
+        "number": 3,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2015-08/14/16/4abc785870dcb52f1246549d9db116d9.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-08/14/16/dc5b3e4dc9f075c520217b51f155570b.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-08/14/16/ffc62558e354545b0c0e30a9bee8ad8c.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-08/14/16/866c05bc9ed56d901fa6fa496c3f66e1.jpg"
+            }
+        ],
+        "index": 3,
+        "gid": 3,
+        "subject": "拍拖宝贝 犬用除臭饼干桶装400g",
+        "presubject": "清新口气 补钙增体力 缓解疲劳 低脂易吸收",
+        "formats": [
+            {
+                "name": "100g",
+                "photo": "https://img1.epetbar.com/2015-08/14/16/a729276b5edd0b7aea9884542b6b57ad.jpg"
+            },
+            {
+                "name": "280g",
+                "photo": "https://img1.epetbar.com/2015-08/14/16/59580857bca513a26fa1d1bf24889327.jpg"
+            },
+            {
+                "name": "400g",
+                "photo": "https://img1.epetbar.com/2015-08/14/16/4abc785870dcb52f1246549d9db116d9.jpg"
+            }
+        ],
+        "sale_price":  25.0,
+        "market_price": 30.0
+    },
+    {
+        "number": 4,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2018-07/04/09/56ebebe5d6f9870ead3e3ed2f470c5a9.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-07/04/09/7729d84e85d6f79c1d306f805a05903c.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-07/04/09/c3cb8be414d60c09a0ececb6ad18f596.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-07/04/09/d0527847cada42ccd67708512723158c.jpg"
+            }
+        ],
+        "index": 4,
+        "gid": 4,
+        "subject": "蒙贝 肉骨诱惑鲜香牛肉片狗零食 70g",
+        "presubject": "鲜香美味 营养补钙 健齿健体",
+        "formats": [
+            {
+                "name": "70g",
+                "photo": "https://img1.epetbar.com/2018-07/04/09/56ebebe5d6f9870ead3e3ed2f470c5a9.jpg"
+            }
+        ],
+        "sale_price":  26.8,
+        "market_price": 32.16
+    },
+    {
+        "number": 5,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2018-04/28/11/0dc4e258f419b84dda0afcce38223f49.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-04/28/11/8c49e4f420376f3ecd584583435eb4cc.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-04/28/11/fca51ea709a2d7b49ba4ea34d53603d9.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-04/28/11/fc23fbd7f313a2fbd79706fcb4ff5e83.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-04/28/11/80a0b0157abe992fde921d72151432d4.jpg"
+            }
+        ],
+        "index": 5,
+        "gid": 5,
+        "subject": "路斯 奶酪牛肉棒狗零食180g",
+        "presubject": "干燥有嚼劲 磨牙解馋 营养美味 训练奖励",
+        "formats": [
+            {
+                "name": "180g",
+                "photo": "https://img1.epetbar.com/2018-04/28/11/0dc4e258f419b84dda0afcce38223f49.jpg"
+            }
+        ],
+        "sale_price":  18.9,
+        "market_price": 25.0
+    },
+    {
+        "number": 6,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2016-01/22/10/b46308b97be41dec511051fcc0cb8368.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2014-06/07/917bf45d24f1ed23067f86699e03d1b3.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2014-06/07/0c847f124236e01aa794da97d3167cc5.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2014-06/07/dc3cfb253c3485f97d0f12fb7ebf3b32.jpg"
+            }
+        ],
+        "index": 6,
+        "gid": 6,
+        "subject": "爱丽思IRIS 鸡胸肉软片 TSY-16US 160g",
+        "presubject": "日本品牌畅销全球 天然食材 无色素 无添加 蛋白质丰富",
+        "formats": [
+            {
+                "name": "鸡胸肉软片",
+                "photo": "https://img1.epetbar.com/2015-11/26/18/7e1cf3419982fc4284ee9e88a190b2a5.jpg"
+            },
+            {
+                "name": "鸡胸细丝",
+                "photo": "https://img1.epetbar.com/2014-12/05/4a53a9833677499864fc8c703019f8a3.jpg"
+            },
+            {
+                "name": "鸡胸肉硬片",
+                "photo": "https://img1.epetbar.com/2016-10/17/8/87dedbb22bfd08ac81e7ce848cb816a4.jpg"
+            },
+            {
+                "name": "鸡胸软丝",
+                "photo": "https://img1.epetbar.com/2016-01/22/10/b46308b97be41dec511051fcc0cb8368.jpg"
+            },
+            {
+                "name": "鸡胸肉干",
+                "photo": "https://img1.epetbar.com/2014-12/05/724b911854c267e53783515c89c181c4.jpg"
+            }
+        ],
+        "sale_price":  19.0,
+        "market_price": 38.0
+    },
+    {
+        "number": 7,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2016-10/20/14/9da1dd86a659377e078162f68df3de2c.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-06/25/32e6cd9870d8237e2c537fc629767bce.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-06/25/3ace03dd0ec97a4af66d05a59f4bc257.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2015-06/25/d001078d30599885d1d23a4facddc8a6.jpg"
+            }
+        ],
+        "index": 7,
+        "gid": 7,
+        "subject": "盛来知Sunrise 脆骨条狗零食 420g",
+        "presubject": "日本原装 可口猪臀肉+蔬菜 肉香四溢 美味适口",
+        "formats": [
+            {
+                "name": "鸡肉",
+                "photo": "https://img1.epetbar.com/2014-12/29/f1f99525806e51cfece5cb55aaddece0.jpg"
+            },
+            {
+                "name": "牛肉",
+                "photo": "https://img1.epetbar.com/2014-12/26/c8fab92b3df0b204cd9fdc369aef1dea.jpg"
+            },
+            {
+                "name": "猪肉",
+                "photo": "https://img1.epetbar.com/2015-06/25/5b7fdad853da9d302155039a65ee93fa.jpg"
+            },
+            {
+                "name": "猪肉+蔬菜",
+                "photo": "https://img1.epetbar.com/2016-10/20/14/9da1dd86a659377e078162f68df3de2c.jpg"
+            }
+        ],
+        "sale_price":  50.0,
+        "market_price": 60.0
+    },
+    {
+        "number": 8,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2018-12/11/19/6a115b1ddec3509999efd753d588f90a.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-12/11/19/e4ba4793d7642bb9cb858c2f0b1b35af.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-12/11/19/c2312425f53821f34b8c62f0b7af1189.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-12/11/19/bb3a83b5f690822daad029bf279b5ac2.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2018-12/11/19/71374332059255e9b5215a9ba0c6f549.jpg"
+            }
+        ],
+        "index": 8,
+        "gid": 8,
+        "subject": "皇家royal canin PR27小型犬成犬专用狗粮2kg",
+        "presubject": "健康膳食 亮丽皮毛",
+        "formats": [
+            {
+                "name": "2kg",
+                "photo": "https://img1.epetbar.com/2018-12/11/19/6a115b1ddec3509999efd753d588f90a.jpg"
+            }
+        ],
+        "sale_price":  116.0,
+        "market_price": 135.4
+    },
+    {
+        "number": 9,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/2018-06/22/17/e3158e0d01f6ba9bc799dfb2bfb90a70.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-05/17/10/13b0ff47a78271f78a9b6f699ca5b080.jpg"
+            }
+        ],
+        "index": 9,
+        "gid": 9,
+        "subject": "冠能小型犬成犬全价犬粮 7kg",
+        "presubject": "雀巢旗下狗粮 经典配方 好营养 助消化 促成长",
+        "formats": [
+            {
+                "name": "0.8kg",
+                "photo": "https://img1.epetbar.com/2018-06/22/17/1f413625dacd95dde472be1a353cb212.jpg"
+            },
+            {
+                "name": "2.5kg",
+                "photo": "https://img1.epetbar.com/2018-06/22/17/0a30cf4cc99788fca908635b73f2c900.jpg"
+            },
+            {
+                "name": "7kg",
+                "photo": "https://img1.epetbar.com/2018-06/22/17/e3158e0d01f6ba9bc799dfb2bfb90a70.jpg"
+            }
+        ],
+        "sale_price":  375.0,
+        "market_price": 483.5
+    },
+    {
+        "number": 10,
+        "photos": [
+            {
+                "image": "https://img1.epetbar.com/goods/sales/upload_file_20193148877.jpg"
+            },
+            {
+                "image": "https://img1.epetbar.com/2016-12/22/10/425e860255d5b862c9f50ec68b6f9477.png"
+            }
+        ],
+        "index": 10,
+        "gid": 10,
+        "subject": "比利时原装进口 欧冠 鸡肉米饭中型成犬/老年犬粮 3kg",
+        "presubject": "专为老年中型犬 鲜肉原料营养足 免疫强少生病",
+        "formats": [
+            {
+                "name": "3kg",
+                "photo": "https://img1.epetbar.com/goods/sales/upload_file_20193148877.jpg"
+            },
+            {
+                "name": "12kg",
+                "photo": "https://img1.epetbar.com/goods/sales/upload_file_20193148216.jpg"
+            }
+        ],
+        "sale_price":  198.0,
+        "market_price": 294.0
+    }
+
+]

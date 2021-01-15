@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理员</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/wui.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../icon/icon01/iconfont.css">
+    <link href="../static/h-ui/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="../static/h-ui.admin/css/H-ui.login.css" rel="stylesheet" type="text/css" />
+    <link href="../static/h-ui.admin/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../lib/Hui-iconfont/1.0.8/iconfont.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="main-content">
+        <div class="wrapper">
+            <div class="contentbiao">
+                <span>系统管理</span>
+                <ul>
+                    <li>管理员</li>
+                </ul>
+            </div>
+            <div class="contentadd">
+                <span id="adduser">+添加管理</span>
+            </div>
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <input type="checkbox">全选
+                            </th>
+                            <th class="uid">序号</th>
+                            <th class="uname">管理员名称</th>
+                            <th class="uedit">操作</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <!-- <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td class="u_id">01</td>
+                                        <td class="u_name">【三只松鼠_辣条大礼包组合】怀旧麻辣零食网红儿时小吃大辣片</td>
+                                        <td class="u_edit">
+                                            <i class="iconfont icon-caozuo" title="编辑"></i>
+                                            <i class="iconfont icon-hekriconshanchu" title="删除"></i>
+                                        </td>
+                                    </tr> -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="edit" class="loginWraper" style="background: rgb(50,131,172);height: 500px;">
+            <div id="loginform" class="loginBox" style="margin-top: -100px;height: 200px;">
+                <form class="form" action="" method="post">
+                    <div class="row cl">
+                        <label class="form-label col-xs-3"></label>
+                        <div class="formControls col-xs-8">
+                            <input id="psw" name="" type="password" placeholder="密码" class="input-text size-L">
+                        </div>
+                    </div>
+                    <div class="row cl">
+                        <div class="formControls col-xs-8 col-xs-offset-3">
+                            <input class="input-text size-L" id="Txtidcode" type="text" placeholder="验证码"
+                                style="width:150px;">
+                            <span id="idcode"></span>
+                        </div>
+                    </div>
+                    <div class="row cl">
+                        <div class="formControls col-xs-8 col-xs-offset-3">
+                            <input name="" type="button" id="btns" class="btn btn-success radius size-L"
+                                value="&nbsp;确&nbsp;&nbsp;&nbsp;&nbsp;定&nbsp;">
+                            <input name="" type="reset" id="close" class="btn btn-default radius size-L"
+                                value="&nbsp;取&nbsp;&nbsp;&nbsp;&nbsp;消&nbsp;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="aedit" class="loginWraper" style="background: rgb(50,131,172);height: 500px;">
+            <div id="loginform" class="loginBox" style="margin-top: -150px;height: 230px;">
+                <form class="form" action="" method="post">
+                    <div class="row cl">
+                        <label class="form-label col-xs-3"></label>
+                        <div class="formControls col-xs-8">
+                            <input id="auser" name="" type="text" placeholder="账户" class="input-text size-L">
+                        </div>
+                    </div>
+                    <div class="row cl">
+                        <label class="form-label col-xs-3"></label>
+                        <div class="formControls col-xs-8">
+                            <input id="apsw" name="" type="password" placeholder="密码" class="input-text size-L">
+                        </div>
+                    </div>
+                    <div class="row cl">
+                        <div class="formControls col-xs-8 col-xs-offset-3">
+                            <input name="" type="button" id="abtns" class="btn btn-success radius size-L"
+                                value="&nbsp;确&nbsp;&nbsp;&nbsp;&nbsp;定&nbsp;">
+                            <input name="" type="reset" id="aclose" class="btn btn-default radius size-L"
+                                value="&nbsp;取&nbsp;&nbsp;&nbsp;&nbsp;消&nbsp;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="../lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.min.js"></script>
+<script src="../pluging/idcode/jquery.idcode.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/admin.js"></script>
+
+</html>

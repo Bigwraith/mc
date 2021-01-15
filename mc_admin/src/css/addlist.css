@@ -1,0 +1,86 @@
+figure {
+  width: 100%;
+  height: 100%;
+  margin-top: 120px;
+  margin-left: 100px; }
+  figure .edit {
+    width: 600px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative; }
+    figure .edit table {
+      width: 600px;
+      height: 500px;
+      margin: 30px; }
+      figure .edit table tr {
+        display: inline-block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        color: #666;
+        margin-top: 5px; }
+        figure .edit table tr td:nth-child(1) {
+          display: inline-block;
+          width: 15%;
+          height: 100%; }
+        figure .edit table tr td:nth-child(2) {
+          display: inline-block;
+          width: 60%;
+          height: 100%; }
+          figure .edit table tr td:nth-child(2) .edit_inp {
+            display: inline-block;
+            float: left;
+            width: 300px;
+            height: 30px;
+            margin-top: 5px;
+            border: 1px solid #dcdfe6;
+            color: #555;
+            border-radius: 5px;
+            padding-left: 10px; }
+      figure .edit table tr:nth-child(1) {
+        height: 100px;
+        margin-bottom: 5px; }
+      figure .edit table tr:nth-child(2) td {
+        width: 100%; }
+        figure .edit table tr:nth-child(2) td .uploadfile {
+          width: 50px;
+          height: 22px;
+          background: linear-gradient(to bottom, #f0f0f8 20%, #ccc 80%);
+          border: 1px solid #666;
+          border-radius: 3px; }
+          figure .edit table tr:nth-child(2) td .uploadfile:hover {
+            background: linear-gradient(to bottom, #d5deee 20%, #a0bdf3 80%);
+            border: 1px solid #6495ED; }
+      figure .edit table tr:last-child button {
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        background: linear-gradient(to bottom right, #6495ED, #4169E1, #6495ED);
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid #4169E1;
+        font-size: 15px;
+        initial-letter: 2px;
+        letter-spacing: 2px;
+        cursor: pointer; }
+    figure .edit .edit_del {
+      display: inline-block;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      border-radius: 50%;
+      background: #f52648;
+      right: 10px;
+      top: 10px;
+      text-align: center;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer; }
+
+/*# sourceMappingURL=addlist.css.map */
